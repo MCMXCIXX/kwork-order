@@ -6282,3 +6282,61 @@
     page-break-after: avoid;
   }
 }
+
+
+.speasyimagegallery-gallery-item {
+  cursor: pointer;
+}
+
+.speasyimagegallery-gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.speasyimagegallery-modal {
+  display: none;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.speasyimagegallery-modal-content {
+  max-width: 90%;
+  max-height: 90vh;
+  text-align: center;
+}
+
+.speasyimagegallery-modal-image {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 8px;
+}
+
+.speasyimagegallery-info {
+  color: white;
+  margin-top: 10px;
+}
+
+.speasyimagegallery-info h3 {
+  margin: 0 0 5px;
+}
+
+.speasyimagegallery-info p {
+  margin: 0;
+}
+
+.speasyimagegallery-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}

@@ -361,3 +361,5 @@ jQuery(function ($) {
 jQuery(document).on('click', '.zayavka .ba-form-submit-btn', function(){
    ym(96515510,'reachGoal','zayavka');
  })
+
+ 
